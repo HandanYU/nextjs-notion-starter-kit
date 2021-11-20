@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Diana notebook',
-  domain: 'https://www.notion.so/Diana-s-Home-Page-1881c8286de94552873577bd8918d943',
+  domain: 'https://inquisitive-charger-3f8.notion.site/Diana-s-Home-Page-1881c8286de94552873577bd8918d943',
   author: 'handan',
 
   // open graph metadata (optional)
