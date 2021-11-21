@@ -32,6 +32,11 @@ export async function getAllPagesImpl(
       })
 
       if (map[canonicalPageId]) {
+        return {
+          ...map,
+          [canonicalPageId]: pageId
+        }
+        } else {
         console.error(
           'error duplicate canonical page id',
           canonicalPageId,
@@ -40,11 +45,7 @@ export async function getAllPagesImpl(
         )
 
         return map
-      } else {
-        return {
-          ...map,
-          [canonicalPageId]: pageId
-        }
+
       }
     },
     {}
